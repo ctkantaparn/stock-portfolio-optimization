@@ -48,6 +48,7 @@ Visualization of optimal asset weights derived from Sharpe ratio optimization.
 ---
 
 ## ⚙️ Project Structure
+```bash
 stock-portfolio-optimization/
 │
 ├── data/ # Raw or processed data (optional)
@@ -63,7 +64,7 @@ stock-portfolio-optimization/
 │ └── executive_summary.pdf
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🚀 How to Run the Project
