@@ -1,0 +1,13 @@
+# Data handling
+pandas>=2.0.0
+numpy>=1.25.0
+
+# Stock data fetching
+yfinance>=0.2.27
+
+# Plotting & Visualization
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+#Optimization
+scipy>=1.12.0
