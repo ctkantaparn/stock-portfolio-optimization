@@ -47,6 +47,32 @@ Visualization of optimal asset weights derived from Sharpe ratio optimization.
 
 ---
 
+## 📊 Example Optimization Results
+
+Using historical daily price data from **January 1, 2023 to September 1, 2025**, the portfolio optimizer computed the following optimal asset allocation. The optimization objective was to **maximize the Sharpe Ratio**, balancing expected return against volatility.
+
+### Optimal Portfolio Weights
+AAPL : 0.25%
+MSFT : 8.12%
+GOOGL : 15.29%
+AMZN : 49.93%
+JPM : 26.40%
+
+### Portfolio Performance Metrics
+- **Expected Annual Return:** 35.54%
+- **Annualized Volatility:** 18.87%
+- **Sharpe Ratio:** 1.88
+
+### Interpretation
+- The optimizer heavily allocates to **AMZN** and **JPM**, indicating strong risk-adjusted performance over the selected time period.
+- **AAPL** receives a minimal allocation, suggesting it contributed less to improving the portfolio’s overall Sharpe Ratio during this window.
+- A Sharpe Ratio of **1.88** reflects a strong balance between return and risk, indicating efficient portfolio construction based on historical data.
+
+> ⚠️ **Disclaimer:**  
+> These results are based solely on historical performance and do not guarantee future returns. This tool is intended for educational and analytical purposes only.
+
+---
+
 ## ⚙️ Project Structure
 ```bash
 stock-portfolio-optimization/
