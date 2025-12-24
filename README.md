@@ -47,6 +47,11 @@ Visualization of optimal asset weights derived from Sharpe ratio optimization.
 
 ---
 
+### Optimized Risk vs Return
+Graphs optimal portfolio relative to individual stocks.
+![Risk vs Return](visuals/charts/risk_return_scatter.png)
+
+---
 ## 📊 Example Optimization Results
 
 Using historical daily price data from **January 1, 2023 to September 1, 2025**, the portfolio optimizer computed the following optimal asset allocation. The optimization objective was to **maximize the Sharpe Ratio**, balancing expected return against volatility.
