@@ -48,7 +48,7 @@ Visualization of optimal asset weights derived from Sharpe ratio optimization.
 ---
 
 ### Optimized Risk vs Return
-Graphs optimal portfolio relative to individual stocks.
+Graphs optimal portfolio risk and return relative to individual stocks.
 ![Risk vs Return](visuals/charts/risk_return_scatter.png)
 
 ---
