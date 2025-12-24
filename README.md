@@ -62,6 +62,8 @@ JPM : 26.40%
 - **Expected Annual Return:** 35.54%
 - **Annualized Volatility:** 18.87%
 - **Sharpe Ratio:** 1.88
+  
+---
 
 #### Key Insights
 - **JPM exhibits relatively low correlation** with major technology stocks (ranging from ~0.26 to ~0.33), making it a strong diversification asset and explaining its significant portfolio weight (**26.40%**).
