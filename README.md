@@ -63,10 +63,19 @@ JPM : 26.40%
 - **Annualized Volatility:** 18.87%
 - **Sharpe Ratio:** 1.88
 
-### Interpretation
-- The optimizer heavily allocates to **AMZN** and **JPM**, indicating strong risk-adjusted performance over the selected time period.
-- **AAPL** receives a minimal allocation, suggesting it contributed less to improving the portfolio’s overall Sharpe Ratio during this window.
-- A Sharpe Ratio of **1.88** reflects a strong balance between return and risk, indicating efficient portfolio construction based on historical data.
+#### Key Insights
+- **JPM exhibits relatively low correlation** with major technology stocks (ranging from ~0.26 to ~0.33), making it a strong diversification asset and explaining its significant portfolio weight (**26.40%**).
+- **AMZN, MSFT, and GOOGL show higher mutual correlations**, particularly between AMZN and MSFT (**0.64**) and AMZN and GOOGL (**0.60**). Despite this, AMZN dominates the allocation (**49.93%**) due to its superior risk-adjusted returns over the analyzed period.
+- **AAPL is moderately correlated** with the rest of the portfolio while contributing less to diversification or return enhancement, resulting in a minimal allocation (**0.25%**).
+
+#### Overall Interpretation
+The optimizer balances return maximization with diversification by:
+- Concentrating capital in **high-performing growth assets** (AMZN),
+- Offsetting correlated tech exposure with **lower-correlated financial exposure** (JPM),
+- Reducing allocations to assets that do not materially improve the portfolio’s Sharpe Ratio.
+
+This correlation structure helps explain the portfolio’s relatively high **Sharpe Ratio of 1.88**, demonstrating efficient risk-adjusted allocation.
+
 
 > ⚠️ **Disclaimer:**  
 > These results are based solely on historical performance and do not guarantee future returns. This tool is intended for educational and analytical purposes only.
